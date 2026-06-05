@@ -1,0 +1,76 @@
+# -------------------------------------------------------------------------
+# MOROCCAN EXPENSE & BUDGET TRACKER - FLUTTER GITIGNORE
+# -------------------------------------------------------------------------
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate.yaml
+
+# IntelliJ Related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code Related
+.vscode/
+!.vscode/extensions.json
+.history/
+
+# Mac OS metadata
+.DS_Store
+
+# Dart/Flutter/Pub-related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Web-specific
+# If building for web, let's ignore build outputs
+build/web/
+
+# Android-specific
+android/**/gradle-wrapper.jar
+android/.gradle
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/key.properties
+*.keystore
+*.jks
+
+# iOS-specific
+ios/.symlinks/
+ios/Pods/
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+ios/Runner/Flutter/Generated.xcconfig
+ios/Runner/Flutter/flutter_export_environment.sh
+ios/Runner/Flutter/App.framework
+ios/Runner/Flutter/App.podspec
+ios/Runner/Flutter/Info.plist
+SymbolicLinks/
+
+# Crashlytics and Google Services config files
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+
+# Local Environment Variables
+.env
+.env.local
+.env.production
+.gcloudignore
+firebase_options.dart
